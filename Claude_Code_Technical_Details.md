@@ -153,7 +153,7 @@ claude "Install dependencies"
 # Can approve: npm install only, or npm run *, or all npm commands
 ```
 
-### Permission Rule Syntax (Actual Implementation)
+## Permission Rule Syntax (Actual Implementation)
 
 **Command-Specific Rules:**
 ```
@@ -263,32 +263,31 @@ Bash(safe-cmd:*) # Won't allow: safe-cmd && malicious-cmd
 
 ## Professional Workflow Claims Analysis
 
-**CI/CD Pipeline Integration (Status: Requires Verification)**:
-```yaml
-# Vendor claims this works in GitHub Actions:
-steps:
-  - name: AI Code Review
-    run: |
-      claude --allowedTools "mcp__github__create_review,Bash(git:*)" \
-             "Review this PR for security vulnerabilities"
+**SSH Remote Development (Status: Requires Verification)**:
+```bash
+# Vendor claims this works over SSH:
+ssh production-server
+claude --allowedTools "Bash(kubectl:*),Bash(aws:*)" \
+       "Check application health and identify issues"
 ```
 
 **Critical Questions**:
-- Has this been tested in real CI/CD environments?
-- What are the security implications of AI tools in build pipelines?
-- Are there performance and cost impacts for automated usage?
+- Does Claude Code actually work reliably over SSH connections?
+- What are the network latency and authentication requirements?
+- Are there security implications of running AI tools on production servers?
 
-**Production Server Claims (Status: High Security Risk)**:
+**Container Development Claims (Status: Requires Evidence)**:
 ```bash
-# Vendor suggests running on production systems:
-ssh prod-server
-claude --allowedTools "Bash(kubectl:*),Bash(aws:*)" \
-       "Check application health and scale if needed"
+# Vendor suggests this works in minimal containers:
+docker exec -it app-container /bin/sh
+claude --allowedTools "Bash(node:*),Edit" \
+       "Debug memory leak in this Node.js application"
 ```
 
 **Security Investigation Requirements**:
-- Is running AI tools on production servers a recommended security practice?
-- What audit and compliance requirements exist for production AI tool usage?
+- What's the actual container size overhead of adding Claude Code?
+- Does it work in Alpine Linux and other minimal base images?
+- Are there dependency conflicts with application containers?
 - Are there safer alternatives that provide similar capabilities?
 
 ## Comparative Advantage Claims Assessment
@@ -298,7 +297,7 @@ claude --allowedTools "Bash(kubectl:*),Bash(aws:*)" \
 1. **"No context switching"**: Does terminal integration actually improve productivity vs. IDE integration?
 2. **"Full system access"**: Is this an advantage or security concern? How does it compare to IDE sandbox approaches?
 3. **"SSH compatibility"**: What percentage of developers actually need this vs. remote development solutions?
-4. **"CI/CD integration"**: Are there measured benefits vs. pre-commit hooks and other automation?
+4. **"Container development"**: Are there measured benefits vs. volume mounting and remote development?
 5. **"Existing tool leverage"**: Does this provide genuine value vs. potential security risks?
 
 **Versus Web-Based Tools (Claims Requiring Evidence)**:

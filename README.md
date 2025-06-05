@@ -22,27 +22,27 @@
 
 #### **Core Research Focus:**
 
-**[RESEARCH_ANALYSIS.md](./CLAUDE_CODE_RESEARCH_ANALYSIS.md)**
+**[Research Analysis](./CLAUDE_CODE_RESEARCH_ANALYSIS.md)**
 - **Primary Focus**: Critical investigation of terminal-native architecture claims
-- **Problem-Solution Analysis**: Verification of scenarios where GUI tools allegedly fail
+- **Problem-Solution Analysis**: Verification of scenarios where GUI tools allegedly fail  
 - **Evidence Requirements**: Testing and validation of vendor assertions
 
-**[Cost_Benefit_Analysis.md](./Claude_Code_Cost_Benefit_Analysis.md)** ⭐ **NEW**
+**[Cost Benefit Analysis](./Claude_Code_Cost_Benefit_Analysis.md)**
 - **Economic Investigation**: Critical analysis of premium pricing justification
 - **Model Context Protocol (MCP) Value Analysis**: When custom integrations provide actual ROI
 - **Use Case Validation**: Verification of high-value scenarios and claimed advantages
 
-**[Technical_Details.md](./Claude_Code_Technical_Details.md)**
+**[Technical Details](./Claude_Code_Technical_Details.md)**
 - **Implementation Investigation**: Verification of approval mechanisms, MCP configuration, security claims
 - **Security Architecture Review**: Analysis of permission systems, enterprise features
 - **Workflow Validation**: Testing of concrete examples and configuration patterns
 
-**[Comprehensive_Analysis.md](./Claude_Code_Comprehensive_Analysis.md)**
+**[Comprehensive Analysis](./Claude_Code_Comprehensive_Analysis.md)**
 - **Market Position Analysis**: Critical review of unique value claims
 - **Professional Use Case Investigation**: Testing scenarios where alternatives allegedly fail
 - **Technical Advantage Verification**: Evidence-based evaluation of terminal-native benefits
 
-**[Advanced_Research.md](./Claude_Code_Advanced_Research.md)**
+**[Advanced Research](./Claude_Code_Advanced_Research.md)**
 - **Feature Validation Research**: Independent confirmation of claimed capabilities
 - **Competitive Analysis**: Evidence-based comparison methodology
 - **Implementation Testing**: Advanced patterns and professional workflow verification
@@ -57,31 +57,45 @@
 
 **Research Focus**: Independent verification of claims that terminal-native operation solves professional development problems that other tools cannot address.
 
+### **Highest Priority Use Cases for Verification:**
+
+**1. SSH Remote Database Debugging**
+- **Concrete Scenario**: PostgreSQL performance issues on production server, requires immediate analysis
+- **Traditional Approach**: Export logs, analyze locally, SSH back to implement fixes
+- **Claude Code Approach**: Direct on-server analysis with AI assistance
+- **Key Question**: Does this actually work reliably over SSH with network latency?
+
+**2. Container Memory Leak Diagnosis**
+- **Concrete Scenario**: Node.js memory leak only occurs in Alpine Linux container
+- **Traditional Approach**: Install debugging tools (bloats image) or mount code locally (loses environment)
+- **Claude Code Approach**: Minimal container with AI-assisted debugging
+- **Key Question**: What's the actual container size overhead and does it work in minimal base images?
+
+**3. Kubernetes Pod Failure Troubleshooting**
+- **Concrete Scenario**: Production pod failing with ImagePullBackOff, needs immediate diagnosis
+- **Traditional Approach**: Multiple terminals for kubectl, registry checks, credential verification
+- **Claude Code Approach**: AI-guided multi-step diagnostic workflow
+- **Key Question**: Can it actually execute complex Kubernetes troubleshooting patterns?
+
 ### **Claims Requiring Verification:**
 
-**Claim: CI/CD Pipeline AI Integration**
-- **Vendor Assertion**: GUI tools cannot operate in headless pipeline environments
-- **Critical Question**: Can Claude Code actually integrate with GitHub Actions/Jenkins?
-- **Verification Needed**: Practical implementation testing and limitations documentation
-- **Alternative Assessment**: Do other tools actually fail, or are workarounds available?
-
-**Claim: Remote Server Development**  
+**Claim: SSH Remote Server Development**  
 - **Vendor Assertion**: SSH-only environments require terminal-native AI tools
-- **Critical Question**: Is AI assistance actually valuable for server maintenance?
-- **Verification Needed**: Comparison with traditional server administration practices
-- **Alternative Assessment**: Are existing tools (documentation, scripts) adequate?
+- **Critical Question**: Is AI assistance actually valuable for server maintenance and debugging?
+- **Verification Needed**: Practical testing over SSH connections, network latency impact
+- **Alternative Assessment**: Are existing tools (documentation, scripts, traditional debugging) adequate?
 
 **Claim: Container-Based Development**
 - **Vendor Assertion**: Minimal containers cannot support GUI-based AI tools
 - **Critical Question**: Do development containers actually need AI assistance?
 - **Verification Needed**: Size/performance impact comparison with alternatives
-- **Alternative Assessment**: Is the container development premise valid?
+- **Alternative Assessment**: Volume mounting, remote development, multi-stage builds
 
 **Claim: Enterprise Security Environments**
 - **Vendor Assertion**: Compliance requirements exclude web/GUI AI tools
 - **Critical Question**: Do enterprises actually adopt AI coding tools in secure environments?
 - **Verification Needed**: Actual enterprise adoption evidence and compliance analysis
-- **Alternative Assessment**: Are security restrictions actually blocking other tools?
+- **Alternative Assessment**: Are security restrictions actually blocking other tools, or are workarounds available?
 
 ### **Economic Justification Under Review**
 **Research Approach**: Critical analysis of premium pricing claims with evidence-based cost-benefit evaluation.
