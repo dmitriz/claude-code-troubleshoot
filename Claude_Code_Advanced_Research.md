@@ -32,18 +32,18 @@
 - What specific workflows require this capability vs. IDE alternatives?
 - Are there other terminal-native solutions not evaluated?
 
-### Claim 2: Headless Mode Operation
-**Vendor Assertion:** Runs in CI/CD pipelines and automated environments  
+### Claim 2: SSH Remote Operation
+**Vendor Assertion:** Operates over SSH connections where GUI tools cannot function  
 **Investigation Status:** REQUIRES VERIFICATION  
 **Comparative Research:**
-- **All major GUI competitors:** Require interactive desktop environments
-- **Aider:** Terminal-native but limited agentic capabilities
-- **Alternative Assessment:** Custom scripting solutions may provide similar automation
+- **All major GUI competitors:** Cannot operate over SSH without complex forwarding
+- **Aider:** Terminal-native, also works over SSH connections
+- **Alternative Assessment:** Remote development solutions may provide similar capabilities
 
 **Critical Questions Requiring Evidence:**
-- What evidence exists of successful CI/CD integration in production?
-- How does performance compare to custom automation scripts?
-- Are enterprise customers actually adopting this approach?
+- Does Claude Code actually work reliably over SSH connections?
+- Are there network latency or authentication issues?
+- How does this compare to secure remote development alternatives?
 
 ### Claim 3: Model Context Protocol (MCP) Integration  
 **Vendor Assertion:** Native MCP client and server functionality  
