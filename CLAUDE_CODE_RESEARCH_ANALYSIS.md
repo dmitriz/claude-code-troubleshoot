@@ -94,9 +94,6 @@ claude --allowedTools "Bash(kubectl:*),Bash(docker:*)" \
 **Verification Status**: **NEEDS TESTING** - No evidence of Kubernetes troubleshooting effectiveness
 
 **Critical Questions**:
-- Can Claude Code actually execute multi-step diagnostic workflows?
-- Does it understand Kubernetes error patterns?
-- Are there security risks with kubectl access?
 - Do infrastructure teams actually need AI assistance with these tools?
 - Are command-line tools better served by AI than existing documentation?
 
