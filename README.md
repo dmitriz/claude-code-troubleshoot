@@ -1,5 +1,17 @@
 # AI Coding Tools Research: Terminal-Native Analysis
 
+## 🎯 PROJECT GOAL: Working anyclaude Multi-LLM Setup
+
+Our primary goal is to create a **fully working anyclaude setup** that:
+1. Works reliably with multiple LLM providers (Google, OpenAI)
+2. Prevents terminal blocking through automated safeguards
+3. Provides evidence-based model selection
+4. Offers simple API key management
+
+All implementation details are in [ANYCLAUDE_IMPLEMENTATION.md](ANYCLAUDE_IMPLEMENTATION.md)
+
+---
+
 ## ⚠️ **RESEARCH TRANSPARENCY DISCLAIMER**
 
 **This repository contains ENTIRELY AI-GENERATED research by autonomous AI systems.** The human user provides direction, but all analysis, code, and documentation is AI-produced.
