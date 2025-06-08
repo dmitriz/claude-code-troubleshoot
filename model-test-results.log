@@ -1,0 +1,22 @@
+Sat Jun  7 07:35:03 +07 2025: Test session started
+📊 RESULTS SUMMARY
+🧪 Testing Google Gemini models...
+Testing google/gemini-pro with args: 
+error: unknown option '--non-interactive'
+✅ google/gemini-pro works!
+Testing google/gemini-1.0-pro with args: 
+error: unknown option '--non-interactive'
+✅ google/gemini-1.0-pro works!
+Testing google/gemini-1.5-pro with args: 
+error: unknown option '--non-interactive'
+✅ google/gemini-1.5-pro works!
+Testing google/gemini-1.5-flash with args: 
+error: unknown option '--non-interactive'
+✅ google/gemini-1.5-flash works!
+🧪 Testing OpenAI models...
+Testing openai/gpt-4o with args: --max-tokens 4000
+error: unknown option '--max-tokens'
+✅ openai/gpt-4o works!
+Testing openai/gpt-3.5-turbo with args: --max-tokens 4000
+error: unknown option '--max-tokens'
+✅ openai/gpt-3.5-turbo works!
