@@ -1,14 +1,31 @@
 # AI Coding Tools Research: Terminal-Native Analysis
 
-## 🎯 PROJECT GOAL: Working anyclaude Multi-LLM Setup
+## 🎯 PROJECT GOALS: Multi-LLM Setup & Git Security Implementation
 
-Our primary goal is to create a **fully working anyclaude setup** that:
+Our primary goals include:
+
+### 🔧 **Working anyclaude Multi-LLM Setup**
 1. Works reliably with multiple LLM providers (Google, OpenAI)
 2. Prevents terminal blocking through automated safeguards
 3. Provides evidence-based model selection
 4. Offers simple API key management
 
 All implementation details are in [ANYCLAUDE_IMPLEMENTATION.md](ANYCLAUDE_IMPLEMENTATION.md)
+
+### 🛡️ **Git Security & Workflow Automation Implementation**
+
+**Status**: ✅ **Git Security Already Working** - Global hooks and branch protection active
+
+**MCP Git Tool Investigation**:
+- **Issue Discovered**: MCP Git tools (`f51_git_*`) return limited information (only repository path)
+- **Impact**: Affects workflow automation, but terminal fallbacks work perfectly
+- **Solution**: Document limitation and use standard git commands when needed
+
+**Implementation Archive**: Preserved complete MCP tool fallback implementation in [`archive/git-security-implementation/`](archive/git-security-implementation/) for future reference.
+
+**Git Security Documentation**: 
+- **Local Reference**: [GIT_SECURITY_SETUP_EXPLANATION.md](GIT_SECURITY_SETUP_EXPLANATION.md)  
+- **Main Documentation**: [../research-exec/workflow/git-security-automation.md](../research-exec/workflow/git-security-automation.md)
 
 ---
 

@@ -1,0 +1,24 @@
+{
+  "name": "claude-code-troubleshoot",
+  "version": "1.0.0", 
+  "description": "Terminal-native AI tools research and anyclaude multi-LLM setup",
+  "main": "index.js",
+  "scripts": {
+    "test-anyclaude": "bash test-anyclaude.sh",
+    "setup-anyclaude": "bash setup-anyclaude.sh", 
+    "check-models": "bash check-google-models.sh",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "anyclaude",
+    "multi-llm",
+    "terminal-ai",
+    "claude-code-alternative"
+  ],
+  "author": "Research Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "file:///home/z/repos/claude-code-troubleshoot"
+  }
+}
